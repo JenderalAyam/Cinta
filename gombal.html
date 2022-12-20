@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hai My Love</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body onload="startTime()">
+    <div class="loading">
+      <div class="content">
+        <div class="myloading">
+          <div class="loadingmy">
+            <div></div>
+            <div><div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio
+      class="audio"
+      src="https://dekatutorial.github.io/Sezairi%20-%20It's%20You.mp3"
+      autoplay
+      type="audio"
+      loop=""
+    ></audio>
+    <audio
+      class="notif"
+      src="https://dekatutorial.github.io/notif.mp3"
+      type="audio"
+    ></audio>
+    <div class="background1"></div>
+    <div class="background2"></div>
+    <div class="main">
+      <div class="content">
+        <div class="jam">
+          <h1 id="jam">00:00</h1>
+        </div>
+        <div class="tanggal">
+          <p class="tgl">Sunday, 22 January</p>
+        </div>
+        <div class="notif notif1 kelip" onclick="balas()">
+          <div class="header">
+            <div class="wa">
+              <h3><i class="material-icons-sharp logo"> whatsapp </i></h3>
+              <h3>WHATSAPP</h3>
+            </div>
+            <div class="time">
+              <p>Now</p>
+            </div>
+          </div>
+          <div class="nama nama1">
+            <p>Agung</p>
+          </div>
+          <div class="isi">
+            <p>Lo pacar gw yg ke berapa? tolong tulis nama lo. Gw lupa...</p>
+          </div>
+        </div>
+        <div class="notif notif2">
+          <div class="header">
+            <div class="wa">
+              <h3><i class="material-icons-sharp logo"> whatsapp </i></h3>
+              <h3>WHATSAPP</h3>
+            </div>
+            <div class="time">
+              <p>Now</p>
+            </div>
+          </div>
+          <div class="nama nama2">
+            <p>Your Love</p>
+          </div>
+          <div class="isi">
+            <p class="gombal"></p>
+          </div>
+        </div>
+        <div class="btn-mulai">
+          <p class="hilang1" onclick="notif1()">
+            Pencet Aku <br />Kalo kamu sayang sama agung
+          </p>
+
+          <p class="hilang2">Buka Pesannya yah by <br />-Agung ganteng</p>
+          <p class="kirimWA">Kirim Pesan Whatsapp</p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
