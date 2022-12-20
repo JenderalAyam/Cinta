@@ -86,7 +86,7 @@ async function balas() {
       txt +=
         'Nama lo dimulai dari huruf ' +
         nama.charAt(0) +
-        '. Abjad dimulai dari A B C. Angka dimulai dari 1 2 3. Tangga nada dimulai dari do re mi. Cinta dimulai dengan gw dan lo. Gw emg alay. selo ae lah';
+        '. Abjad dimulai dari A B C. Angka dimulai dari 1 2 3. Tangga nada dimulai dari do re mi. Cinta dimulai dari gw dan lo. Gw emg alay. selo ae lah';
     }
     typeWriter();
     notif2();
